@@ -1,0 +1,96 @@
+html {
+   font-family: 'Poiret One', cursive;
+   font-weight: 300;
+   font-weight: bold;
+   background-color: #00656d;
+   color: white;
+}
+
+body {
+   margin: 0;
+}
+
+.sort {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   height: 100vh;
+   min-height: 720px;
+   width: 896px;
+}
+
+.sort__caption {
+   font-size: 36px;
+}
+
+.sort__container {
+   display: flex;
+   position: relative;
+   width: 100%;
+   height: 128px;
+   margin: 96px 0;
+}
+
+.sort__element {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 128px;
+   height: 128px;
+   font-size: 24px;
+   font-weight: 600;
+   border-radius: 4px;
+   background-color: #f1f2cc;
+   color: black;
+}
+
+.sort__status {
+   text-align: center;
+   margin: 24px 0;
+}
+
+.sort__status-paragraph {
+   margin: 0;
+   line-height: 1.5em;
+   font-size: 20px;
+}
+
+.sort__buttons {
+   display: flex;
+   flex-direction: column;
+}
+
+.sort__button {
+   width: 320px;
+   height: 64px;
+   margin: 16px 0;
+   font-size: 36px; 
+   background-color: #00243a;
+   color: #f1f2cc;
+   border: 0;
+   border-radius: 24px;
+   cursor: pointer;
+   transition: .3s;
+}
+
+.sort__button:hover {
+   background-color: #ff2600;
+   color: #f1f2cc;
+}
+
+.sort__button:active, .sort__button:focus {
+   outline: none;
+}
+
+.sort__button:disabled {
+   background-color: #00243a;
+   cursor: default;
+   color: gray;
+}
+
+.sort__button:disabled.sort__button:hover {
+   color: gray;
+}
