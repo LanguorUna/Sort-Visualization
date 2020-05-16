@@ -26,8 +26,8 @@ class SortAnimator {
    async selectElements(targets = []) {
       await this.colorElements({
          targets: targets,
-         color: '#FBF38C',
-         textColor: '#1d1c1c',
+         color: '#00243a',
+         textColor: '#f1f2cc',
       })
    }
 
@@ -50,8 +50,8 @@ class SortAnimator {
    async finishElements(targets = []) {
       await this.colorElements({
          targets: targets,
-         color: '#A4FF4F',
-         textColor: '#1d1c1c',
+         color: '#ff2600',
+         textColor: '#f1f2cc',
          endDelay: 1000,
       })
    }
